@@ -15,18 +15,18 @@ venv/
 *.db
 
 # Ignore visualization outputs
-visualizations/mfccs/
-visualizations/spectrograms/
-visualizations/waveforms/
+task6/visualizations/mfccs/
+task6/visualizations/spectrograms/
+task6/visualizations/waveforms/
 
 # Ignore model files
-models/
+task6/models/
 
 # Ignore spectrogram data
-spectrograms_data/
+task6/spectrograms_data/
 
 # Ignore results
-results/tabular_model_comparison.csv
+task6/results/tabular_model_comparison.csv
 
 
 # Ignore system files
@@ -36,3 +36,4 @@ Thumbs.db
 *.bak
 *.swp
 *.tmp
+.ipynb_checkpoints
